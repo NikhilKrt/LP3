@@ -6,7 +6,7 @@ html {
 }
 
 .cover, .about, .speakers, .schedules,
- .sponsorship, .sponsors, 
+.sponsorship, .sponsors, 
 .register, .registerForm, 
 .community, .location, .footer{
 	font-size: 2rem;
@@ -422,7 +422,7 @@ html {
 	grid-row-gap: 15px;
 	text-align: left;
 	background-color: #fff;
-	padding: 30px;
+	padding: 15px;
 }
 
 .location .head {
@@ -485,6 +485,13 @@ html {
 	padding: 80px 20px;
 	grid-row-gap: 15px;
 	line-height: 15px;
+}
+
+.footer .menu{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 15px
 }
 
 .cover .detail, .cover .title , .cover .hidden, 
@@ -972,6 +979,7 @@ hr{
 	    justify-self: end;
     	margin: 50px;
     	height: 60%;
+    	padding: 30px;
 	}
 
 	.location .map {
@@ -1027,6 +1035,7 @@ hr{
 		align-self: center;
 		outline: none;
 	}
+
 	 .location .notify {
 	 	border-radius: 20px;
 	 	padding: 5px;
@@ -1051,6 +1060,13 @@ hr{
 		grid-column-gap: 15px; 
 		line-height: 30px;
 	}
+
+	.footer .menu{
+		display: grid;
+	    grid-template-rows: 1fr 1fr 1fr 1fr;
+	    grid-template-columns: 1fr;
+	}
+
     .footer .menu, .footer .details, .footer .copy {
     	justify-self:center;
     	text-align: left;
@@ -1132,7 +1148,5 @@ hr{
 	.location .hidden {
 		grid-template-columns: 3fr 1fr 5fr 1fr 3fr;
 	}
-
-	
 
 }
